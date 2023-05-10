@@ -35,9 +35,20 @@ if(a.indexOf (b)!= undefined) {
         })
        a.forEach (function (item) {
         if (item==b) {
-            console.log ('tt')
+            console.log ('tt') 
         }
        })
+    a.forEach (function(value , index , array) {
+        console.log('value: ' , value)
+        console.log('index: ' , index)
+        console.log('array: ' , array)
+
+    })
+
+
+
+
+
         }
 
 
